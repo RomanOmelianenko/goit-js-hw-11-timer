@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 0 30px;
+    border-right: 1px solid gray;
+}
+
+.field:last-child {
+    border: none;
+}
+
+.value {
+    font-size: 40px;
+}
+
+.label {
+    font-size: 15px;
+}
